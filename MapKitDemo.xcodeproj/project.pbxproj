@@ -13,6 +13,8 @@
 		2D2B8FE21FE929CA00349254 /* MapKitDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D2B8FE01FE929CA00349254 /* MapKitDemo.xcdatamodeld */; };
 		2D2B8FE41FE929CA00349254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2B8FE31FE929CA00349254 /* Assets.xcassets */; };
 		2D2B8FE71FE929CA00349254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2B8FE51FE929CA00349254 /* LaunchScreen.storyboard */; };
+		2D6487A11FEBB7B600E0B131 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6487A01FEBB7B600E0B131 /* MapKit.framework */; };
+		2D6487A31FEBB7CA00E0B131 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6487A21FEBB7CA00E0B131 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2D2B8FE31FE929CA00349254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D2B8FE61FE929CA00349254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D2B8FE81FE929CA00349254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6487A01FEBB7B600E0B131 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2D6487A21FEBB7CA00E0B131 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D6487A31FEBB7CA00E0B131 /* CoreLocation.framework in Frameworks */,
+				2D6487A11FEBB7B600E0B131 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,7 @@
 			children = (
 				2D2B8FD81FE929CA00349254 /* MapKitDemo */,
 				2D2B8FD71FE929CA00349254 /* Products */,
+				2D64879F1FEBB7B600E0B131 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +72,15 @@
 				2D2B8FE01FE929CA00349254 /* MapKitDemo.xcdatamodeld */,
 			);
 			path = MapKitDemo;
+			sourceTree = "<group>";
+		};
+		2D64879F1FEBB7B600E0B131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D6487A21FEBB7CA00E0B131 /* CoreLocation.framework */,
+				2D6487A01FEBB7B600E0B131 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +319,7 @@
 				2D2B8FED1FE929CA00349254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
